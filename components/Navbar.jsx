@@ -19,7 +19,7 @@ export default function Navbar() {
   const [userOpen, setUserOpen] = useState(false);
 
   return (
-    <nav className="w-full font-sans bg-white shadow-sm px-6 py-3 flex items-center justify-between relative">
+    <nav className="sticky top-0 z-50 w-full font-sans bg-white shadow-sm px-6 py-3 flex items-center justify-between relative">
       {/* Logo */}
       <div className="flex items-center">
         <Image src="/logo.jpg" alt="Logo" width={160} height={70} />
